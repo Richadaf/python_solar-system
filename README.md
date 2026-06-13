@@ -76,6 +76,14 @@ pip install -e ".[test]"
 pytest
 ```
 
+## Origin
+
+This codebase began as an artifact of a conversation about **Self-Realization
+as the key to avoiding failure** — recorded with a YouTube creator whose work
+reaches roughly 14k monthly views. Porting the 2017 Java original to a clean,
+test-backed Python design was the practical companion to that conversation: a
+small, deliberate act of building something true to its own first principles.
+
 ## Credit
 
 Domain and behaviour derived from the original Java project,
