@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "solar-system"
+version = "1.0.0"
+description = "An object-oriented fantasy solar system model (Python port of the Java original)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Python port of Richard A. Famoroti's Java project" }]
+keywords = ["solar-system", "planets", "kepler", "oop", "example"]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[project.scripts]
+fantasy-solar-system = "solar_system.cli:main"
+
+[tool.setuptools]
+packages = ["solar_system"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
