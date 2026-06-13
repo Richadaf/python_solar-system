@@ -29,15 +29,26 @@ python_solar-system/
 └── README.md
 ```
 
+## Install
+
+Published on PyPI as [`famoroti-solar-system`](https://pypi.org/project/famoroti-solar-system/):
+
+```bash
+pip install famoroti-solar-system
+```
+
+(The distribution name is `famoroti-solar-system`; it imports as `solar_system`
+and installs the `fantasy-solar-system` command.)
+
 ## Running
 
-From inside `python_solar-system/`:
+After installing, or from inside `python_solar-system/`:
 
 ```bash
 # Run the interactive fantasy builder
 python -m solar_system
 
-# Or, after `pip install -e .`
+# Or via the installed console script
 fantasy-solar-system
 ```
 
